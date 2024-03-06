@@ -1,0 +1,191 @@
+{
+	"header" : 
+	{
+		"DuplicatedCodeFinder-mode" : "full",
+		"FaultHunterPython-mode" : "inactive",
+		"LIM2Metrics-mode" : "limited",
+		"LIM2Patterns-mode" : "full",
+		"MetricHunter-mode" : "full",
+		"Pylint2Graph-mode" : "inactive",
+		"UserDefinedMetrics-mode" : "inactive",
+		"asg" : "python"
+	},
+	"nodes" : 
+	[
+		{
+			"attributes" : 
+			[
+				{
+					"context" : "attribute",
+					"name" : "Name",
+					"type" : "string",
+					"value" : "<System>"
+				},
+				{
+					"context" : "attribute",
+					"name" : "LongName",
+					"type" : "string",
+					"value" : "<System>"
+				},
+				{
+					"context" : "metric",
+					"name" : "CCL",
+					"type" : "int",
+					"value" : 10
+				},
+				{
+					"context" : "metric",
+					"name" : "CCO",
+					"type" : "int",
+					"value" : 62
+				},
+				{
+					"context" : "metric",
+					"name" : "CEE",
+					"type" : "float",
+					"value" : 44.700000762939453
+				},
+				{
+					"context" : "metric",
+					"name" : "CI",
+					"type" : "int",
+					"value" : 22
+				},
+				{
+					"context" : "metric",
+					"name" : "LDC",
+					"type" : "int",
+					"value" : 583
+				},
+				{
+					"context" : "metric",
+					"name" : "LLDC",
+					"type" : "int",
+					"value" : 457
+				},
+				{
+					"context" : "metric",
+					"name" : "CC",
+					"type" : "float",
+					"value" : 0.024164691567420959
+				},
+				{
+					"context" : "metric",
+					"name" : "CLLC",
+					"type" : "float",
+					"value" : 0.02168651856482029
+				},
+				{
+					"context" : "metric",
+					"name" : "CLC",
+					"type" : "float",
+					"value" : 0.022050758823752403
+				},
+				{
+					"context" : "metric",
+					"name" : "NCR",
+					"type" : "float",
+					"value" : 0.18999999761581421
+				},
+				{
+					"context" : "metric",
+					"name" : "CR",
+					"type" : "float",
+					"value" : 0.033550042659044266
+				},
+				{
+					"context" : "metric",
+					"name" : "CEG",
+					"type" : "float",
+					"value" : 0.88287901878356934
+				},
+				{
+					"context" : "metric",
+					"name" : "TLLOC",
+					"type" : "int",
+					"value" : 21073
+				},
+				{
+					"context" : "metric",
+					"name" : "TLOC",
+					"type" : "int",
+					"value" : 26439
+				},
+				{
+					"context" : "metric",
+					"name" : "TNCL",
+					"type" : "int",
+					"value" : 328
+				},
+				{
+					"context" : "metric",
+					"name" : "TNFI",
+					"type" : "int",
+					"value" : 373
+				},
+				{
+					"context" : "metric",
+					"name" : "TNM",
+					"type" : "int",
+					"value" : 1314
+				},
+				{
+					"context" : "metric",
+					"name" : "TNOS",
+					"type" : "int",
+					"value" : 8402
+				},
+				{
+					"context" : "metric",
+					"name" : "TNPKG",
+					"type" : "int",
+					"value" : 64
+				},
+				{
+					"context" : "metric",
+					"name" : "TCLOC",
+					"type" : "int",
+					"value" : 4862
+				},
+				{
+					"context" : "metric",
+					"name" : "TNDI",
+					"type" : "int",
+					"value" : 68
+				},
+				{
+					"context" : "metric",
+					"name" : "WarningBlocker",
+					"type" : "int",
+					"value" : 0
+				},
+				{
+					"context" : "metric",
+					"name" : "WarningCritical",
+					"type" : "int",
+					"value" : 0
+				},
+				{
+					"context" : "metric",
+					"name" : "WarningMajor",
+					"type" : "int",
+					"value" : 0
+				},
+				{
+					"context" : "metric",
+					"name" : "WarningMinor",
+					"type" : "int",
+					"value" : 0
+				},
+				{
+					"context" : "metric",
+					"name" : "WarningInfo",
+					"type" : "int",
+					"value" : 0
+				}
+			],
+			"name" : "L102",
+			"type" : "Component"
+		}
+	]
+}

@@ -1,0 +1,102 @@
+Project name,GitHub Link,is_archived,stars,forks,commits,LOC
+ART,https://github.com/Trusted-AI/adversarial-robustness-toolbox,FALSE,4318,1117,10,147005
+BentoML,https://github.com/bentoml/BentoML,FALSE,6310,721,10,75177
+Bokeh,https://github.com/bokeh/bokeh,FALSE,18595,4146,10,156640
+Camel,https://github.com/camel-ai/camel,FALSE,4156,497,10,19554
+CatBoost,https://github.com/catboost/catboost,FALSE,7606,1175,10,5842673
+Causal ML,https://github.com/uber/causalml,FALSE,4590,762,10,16459
+Chainer,https://github.com/chainer/chainer,FALSE,5847,1400,10,208457
+Computer Vision,https://github.com/microsoft/computervision-recipes,FALSE,9246,1166,10,29025
+D2L,https://github.com/d2l-ai/d2l-en,FALSE,20909,4034,10,11063
+Darts,https://github.com/unit8co/darts,FALSE,7014,777,10,96704
+Dash,https://github.com/plotly/dash,FALSE,20147,2043,10,45034
+DeepChem,https://github.com/deepchem/deepchem,FALSE,4933,1572,10,157034
+DeepMind Control,https://github.com/google-deepmind/dm_control,FALSE,3446,640,10,62828
+DeepPavlov,https://github.com/deeppavlov/DeepPavlov,FALSE,6478,1137,10,27396
+Detectron2,https://github.com/facebookresearch/Detectron2,FALSE,28086,7178,10,74048
+DIGITS,https://github.com/NVIDIA/DIGITS,FALSE,4110,1402,10,40755
+DragGan,https://github.com/XingangPan/DragGAN,FALSE,34456,3252,10,27801
+EasyOCR,https://github.com/JaidedAI/EasyOCR,FALSE,21147,2874,10,14373
+ELI5,https://github.com/TeamHG-Memex/eli5,FALSE,2718,333,10,14649
+EvalAI,https://github.com/Cloud-CV/EvalAI,FALSE,1631,741,10,46022
+facenet,https://github.com/davidsandberg/facenet,FALSE,13403,4788,10,10393
+FaceSwap,https://github.com/deepfakes/faceswap,FALSE,48534,12802,10,81732
+Fairseq,https://github.com/facebookresearch/fairseq,FALSE,28714,6170,10,191169
+FastAI,https://github.com/fastai/fastai,FALSE,25240,7474,10,18192
+FeatureTools,https://github.com/alteryx/featuretools,FALSE,6961,858,10,60264
+FiftyOne,https://github.com/voxel51/fiftyone,FALSE,6418,465,10,207120
+gensim,https://github.com/piskvorky/gensim,FALSE,15006,4387,10,66835
+Giskard,https://github.com/Giskard-AI/giskard,FALSE,2564,179,10,64618
+Gluonts,https://github.com/awslabs/gluonts,FALSE,4105,763,10,175620
+Google Flax,https://github.com/google/flax,FALSE,5213,573,10,73609
+Google JAX,https://github.com/google/jax,FALSE,26681,2427,10,285529
+GPT-Engineer,https://github.com/gpt-engineer-org/gpt-engineer,FALSE,49148,6362,10,9348
+GPTDiscord,https://github.com/Kav-K/GPTDiscord,FALSE,1753,298,10,15028
+Gradio,https://github.com/gradio-app/gradio,FALSE,26413,1873,10,66455
+Gymnasium,https://github.com/Farama-Foundation/Gymnasium,FALSE,5037,592,10,46703
+Horovod,https://github.com/horovod/horovod,FALSE,13812,2209,10,65241
+ImageAI,https://github.com/OlafenwaMoses/ImageAI,FALSE,8299,2162,10,18665
+imbalanced-learn,https://github.com/scikit-learn-contrib/imbalanced-learn,FALSE,6643,1278,10,31008
+InsightFace,https://github.com/deepinsight/insightface,FALSE,20432,5051,10,151602
+Kaolin,https://github.com/NVIDIAGameWorks/kaolin,FALSE,4124,526,10,44484
+Kedro,https://github.com/kedro-org/kedro,FALSE,9203,868,10,33259
+Keras,https://github.com/keras-team/keras,FALSE,60308,19261,10,177858
+Kserve,https://github.com/kserve/kserve,FALSE,2789,911,10,70427
+Lightning,https://github.com/Lightning-AI/pytorch-lightning,FALSE,26255,3218,10,185893
+Ludwig,https://github.com/ludwig-ai/ludwig,FALSE,10543,1164,10,137619
+Mage-ai,https://github.com/mage-ai/mage-ai,FALSE,6555,568,10,229545
+Mars,https://github.com/mars-project/mars,FALSE,2671,322,10,288805
+Matplotlib,https://github.com/matplotlib/matplotlib,FALSE,18888,7329,10,247852
+metatransformer,https://github.com/invictus717/MetaTransformer,FALSE,1390,110,10,121302
+Mindsdb,https://github.com/mindsdb/mindsdb,FALSE,19971,2597,10,136504
+MLflow,https://github.com/mlflow/mlflow,FALSE,16793,3845,10,269549
+Mycroft,https://github.com/MycroftAI/mycroft-core,FALSE,6423,1296,10,38074
+Neural Prophet,https://github.com/ourownstory/neural_prophet,FALSE,3556,453,10,21069
+NNI,https://github.com/microsoft/nni,FALSE,13593,1831,10,143474
+Numpy,https://github.com/numpy/numpy,FALSE,25756,9015,10,275153
+ONNX,https://github.com/onnx/onnx,FALSE,16431,3648,10,88456
+Open-Assistant,https://github.com/LAION-AI/Open-Assistant,FALSE,36321,3162,10,46946
+OpenAI Baselines,https://github.com/openai/baselines,FALSE,15179,4866,10,16762
+OpenAI Python API library,https://github.com/openai/openai-python,FALSE,18495,2422,10,34095
+OpenVINO,https://github.com/openvinotoolkit/training_extensions,FALSE,1117,438,10,190386
+Optuna,https://github.com/optuna/optuna,FALSE,9300,943,10,64389
+Paddle,https://github.com/PaddlePaddle/Paddle,FALSE,21366,5368,10,1267447
+Pandas,https://github.com/pandas-dev/pandas,FALSE,41269,17066,10,613186
+Pocker,https://github.com/dickreuter/Poker,FALSE,1823,487,10,14412
+Pybrain,https://github.com/pybrain/pybrain,FALSE,2850,796,10,38464
+PyCaret,https://github.com/pycaret/pycaret,FALSE,8218,1689,10,72842
+pycm,https://github.com/sepandhaghighi/pycm,FALSE,1418,121,10,14228
+PyMC,https://github.com/pymc-devs/pymc,FALSE,8029,1935,10,88108
+Pyro,https://github.com/pyro-ppl/pyro,FALSE,8272,986,10,131455
+PyTensor,https://github.com/pymc-devs/pytensor,FALSE,212,67,10,207280
+PyTorch,https://github.com/pytorch/pytorch,FALSE,75539,20456,10,1516043
+Pytorch image models,https://github.com/huggingface/pytorch-image-models,FALSE,28764,4496,10,83775
+qlib,https://github.com/microsoft/qlib,FALSE,13466,2333,10,72222
+Rasa,https://github.com/RasaHQ/rasa,FALSE,17620,4517,10,163850
+Ray,https://github.com/ray-project/ray,FALSE,29985,5073,10,777832
+Recommenders,https://github.com/recommenders-team/recommenders,FALSE,17566,2961,10,42570
+Redash,https://github.com/getredash/redash,FALSE,24622,4213,10,40497
+river,https://github.com/online-ml/river/,FALSE,4639,556,10,67178
+RLAgents,https://github.com/eleurent/rl-agents,FALSE,522,182,10,9681
+scikit-learn,https://github.com/scikit-learn/scikit-learn,FALSE,57430,24867,10,389006
+Scikit-multiflow,https://github.com/scikit-multiflow/scikit-multiflow,FALSE,733,182,10,47403
+SciPy,https://github.com/scipy/scipy,FALSE,12204,5011,10,488556
+Scrapy,https://github.com/scrapy/scrapy,FALSE,50183,10257,10,62963
+seaborn,https://github.com/mwaskom/seaborn,FALSE,11708,1833,10,54875
+Snorkel,https://github.com/snorkel-team/snorkel,FALSE,5655,856,10,13692
+Sonnet,https://github.com/google-deepmind/sonnet,FALSE,9676,1364,10,23100
+spaCy,https://github.com/explosion/spaCy,FALSE,28290,4395,10,130667
+Stable Diffusion webui,https://github.com/AUTOMATIC1111/stable-diffusion-webui,FALSE,122047,23866,10,40641
+Stanza,https://github.com/stanfordnlp/stanza,FALSE,6962,904,10,73203
+Statsmodels,https://github.com/statsmodels/statsmodels,FALSE,9320,2848,10,417746
+SuperAGI,https://github.com/TransformerOptimus/SuperAGI,FALSE,13798,1705,10,32683
+TensorFlow,https://github.com/tensorflow/tensorflow,FALSE,180767,73682,10,1200115
+TensorForce,https://github.com/tensorforce/tensorforce,FALSE,3273,547,10,36051
+TensorLayer,https://github.com/tensorlayer/tensorlayer,FALSE,7276,1639,10,55339
+TensorLayerX,https://github.com/tensorlayer/tensorlayerx,FALSE,523,41,10,79944
+torchvision,https://github.com/pytorch/vision/,FALSE,15135,6805,10,107906
+TPOT,https://github.com/EpistasisLab/tpot,FALSE,9420,1551,10,12249
+Transformers,https://github.com/huggingface/transformers,FALSE,120453,23923,10,1302448
+TTS,https://github.com/coqui-ai/TTS,FALSE,26969,3073,10,77996
+vit-pytorch,https://github.com/lucidrains/vit-pytorch,FALSE,17006,2682,10,9754
+Yellowbrick,https://github.com/DistrictDataLabs/yellowbrick,FALSE,4168,558,10,50655
