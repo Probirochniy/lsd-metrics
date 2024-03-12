@@ -15,6 +15,14 @@ EXE_PATH = "SourceMeter-10.2.0-x64-Windows\\Python\\AnalyzerPython.exe"
 RESULTS_DIR = "results-raw"
 
 
+def create_init_files_recursively(directory):
+    for root, dirs, files in os.walk(directory):
+        for dir in dirs:
+            init_path = os.path.join(root, dir, "__init__.py")
+            with open(init_path, "w") as f:
+                f.write("")
+
+
 # Function to write the resulting radon metrics to a csv file
 def write_metrics_to_csv(metrics, csv_path):
     with open(csv_path, "w", newline="") as csvfile:
@@ -148,9 +156,11 @@ def get_metrics(names_links):
             pass
 
         # Cloning the repository
-        subprocess.run(["git", "clone", link, name])
+        subprocess.run(["git", "clone", "--depth 1", link, name])
 
+        # Creating the __init__.py files
         # Getting the sourcemeter metrics
+        create_init_files_recursively(name)
         get_source_meter_metrics(name)
 
         # Getting the radon metrics
@@ -178,8 +188,7 @@ def main():
             names_links.append((row[0], row[1]))
         names_links = names_links[1:]
 
-    # Temporary
-    names_links = names_links[91:]
+    names_links = [names_links[6]]
 
     get_metrics(names_links)
 
