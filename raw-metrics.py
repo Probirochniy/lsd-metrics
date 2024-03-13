@@ -15,12 +15,28 @@ EXE_PATH = "SourceMeter-10.2.0-x64-Windows\\Python\\AnalyzerPython.exe"
 RESULTS_DIR = "results-raw"
 
 
-def create_init_files_recursively(directory):
+# Function to remove the readonly attribute from a file, helps to delete the repository
+def remove_readonly(func, path, _):
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+
+def prepare_for_sourcemeter(directory):
+    with open(os.path.join(directory, "__init__.py"), "w") as f:
+        f.write("")
+
     for root, dirs, files in os.walk(directory):
         for dir in dirs:
             init_path = os.path.join(root, dir, "__init__.py")
             with open(init_path, "w") as f:
                 f.write("")
+
+        for file in files:
+            if not file.endswith(".py"):
+                try:
+                    os.remove(os.path.join(root, file))
+                except PermissionError:
+                    remove_readonly(os.remove, os.path.join(root, file), None)
 
 
 # Function to write the resulting radon metrics to a csv file
@@ -29,12 +45,6 @@ def write_metrics_to_csv(metrics, csv_path):
         writer = csv.writer(csvfile)
         writer.writerow(metrics.keys())
         writer.writerow(metrics.values())
-
-
-# Function to remove the readonly attribute from a file, helps to delete the repository
-def remove_readonly(func, path, _):
-    os.chmod(path, stat.S_IWRITE)
-    func(path)
 
 
 # Function that collects the radon metrics
@@ -154,14 +164,17 @@ def get_metrics(names_links):
             os.mkdir(repo_results_dir)
         except FileExistsError:
             pass
-
+        
         # Cloning the repository
-        subprocess.run(["git", "clone", "--depth 1", link, name])
+        subprocess.run(["git", "clone", "--depth", "1", link, name])
 
         # Creating the __init__.py files
         # Getting the sourcemeter metrics
-        create_init_files_recursively(name)
-        get_source_meter_metrics(name)
+        prepare_for_sourcemeter(name)
+        try:
+            get_source_meter_metrics(name)
+        except:
+            pass
 
         # Getting the radon metrics
         temp_name = os.path.join(RESULTS_DIR, name, f"{name}-radon.csv")
@@ -188,7 +201,8 @@ def main():
             names_links.append((row[0], row[1]))
         names_links = names_links[1:]
 
-    names_links = [names_links[6]]
+    #Temp
+    names_links = names_links[6:]
 
     get_metrics(names_links)
 

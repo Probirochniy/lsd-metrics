@@ -6,7 +6,7 @@
 		"LIM2Metrics-mode" : "limited",
 		"LIM2Patterns-mode" : "full",
 		"MetricHunter-mode" : "full",
-		"Pylint2Graph-mode" : "inactive",
+		"Pylint2Graph-mode" : "full",
 		"UserDefinedMetrics-mode" : "inactive",
 		"asg" : "python"
 	},
@@ -31,85 +31,451 @@
 					"context" : "metric",
 					"name" : "CCL",
 					"type" : "int",
-					"value" : 18
+					"value" : 24
 				},
 				{
 					"context" : "metric",
 					"name" : "CCO",
 					"type" : "int",
-					"value" : 65
+					"value" : 88
 				},
 				{
 					"context" : "metric",
 					"name" : "CEE",
 					"type" : "float",
-					"value" : 44.375
+					"value" : 111.11111450195313
 				},
 				{
 					"context" : "metric",
 					"name" : "CI",
 					"type" : "int",
-					"value" : 38
+					"value" : 53
 				},
 				{
 					"context" : "metric",
 					"name" : "LDC",
 					"type" : "int",
-					"value" : 1394
+					"value" : 1648
 				},
 				{
 					"context" : "metric",
 					"name" : "LLDC",
 					"type" : "int",
-					"value" : 1006
+					"value" : 1230
 				},
 				{
 					"context" : "metric",
 					"name" : "CC",
 					"type" : "float",
-					"value" : 0.061177965253591537
+					"value" : 0.061761513352394104
 				},
 				{
 					"context" : "metric",
 					"name" : "CLLC",
 					"type" : "float",
-					"value" : 0.045737668871879578
+					"value" : 0.050889533013105392
 				},
 				{
 					"context" : "metric",
 					"name" : "CLC",
 					"type" : "float",
-					"value" : 0.052560139447450638
+					"value" : 0.053593497723340988
 				},
 				{
 					"context" : "metric",
 					"name" : "NCR",
 					"type" : "float",
-					"value" : 0.2986111044883728
+					"value" : 0.25462964177131653
 				},
 				{
 					"context" : "metric",
 					"name" : "CR",
 					"type" : "float",
-					"value" : 0.053455330431461334
+					"value" : 0.05260423943400383
 				},
 				{
 					"context" : "metric",
 					"name" : "CEG",
 					"type" : "float",
-					"value" : 1.4093422889709473
+					"value" : 1.1166906356811523
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_IN",
+					"type" : "int",
+					"value" : 1291
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UnI",
+					"type" : "int",
+					"value" : 13
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_WIP",
+					"type" : "int",
+					"value" : 188
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ExU",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UV",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ReB",
+					"type" : "int",
+					"value" : 7
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UA",
+					"type" : "int",
+					"value" : 85
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_RON",
+					"type" : "int",
+					"value" : 153
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_IRS",
+					"type" : "int",
+					"value" : 5
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UT",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_PSS",
+					"type" : "int",
+					"value" : 2
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ToMA",
+					"type" : "int",
+					"value" : 18
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UOI",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ToML",
+					"type" : "int",
+					"value" : 37
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_PUV",
+					"type" : "int",
+					"value" : 2
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_NM",
+					"type" : "int",
+					"value" : 115
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_WIO",
+					"type" : "int",
+					"value" : 41
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UngI",
+					"type" : "int",
+					"value" : 31
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_PS",
+					"type" : "int",
+					"value" : 26
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UTU",
+					"type" : "int",
+					"value" : 7
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UIA",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_NNIM",
+					"type" : "int",
+					"value" : 61
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TFPM",
+					"type" : "int",
+					"value" : 17
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UP",
+					"type" : "int",
+					"value" : 2
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_AM",
+					"type" : "int",
+					"value" : 28
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_PA",
+					"type" : "int",
+					"value" : 59
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ADOI",
+					"type" : "int",
+					"value" : 118
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TML",
+					"type" : "int",
+					"value" : 5
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_Fi",
+					"type" : "int",
+					"value" : 42
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_NER",
+					"type" : "int",
+					"value" : 17
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_AD",
+					"type" : "int",
+					"value" : 11
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TMIA",
+					"type" : "int",
+					"value" : 8
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TMB",
+					"type" : "int",
+					"value" : 11
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_NoER",
+					"type" : "int",
+					"value" : 7
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_CID",
+					"type" : "int",
+					"value" : 2
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TMA",
+					"type" : "int",
+					"value" : 3
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TMS",
+					"type" : "int",
+					"value" : 4
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UnV",
+					"type" : "int",
+					"value" : 43
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_CUI",
+					"type" : "int",
+					"value" : 7
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ISI",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_LTL",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_SD",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_SP",
+					"type" : "int",
+					"value" : 2
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_CUSC",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_MS",
+					"type" : "int",
+					"value" : 10
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_TMRS",
+					"type" : "int",
+					"value" : 3
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_RAFL",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_NSA",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_KABV",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_ToMFA",
+					"type" : "int",
+					"value" : 4
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_MK",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metric",
+					"name" : "PYLINT_UL",
+					"type" : "int",
+					"value" : 1
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Basic Rules",
+					"type" : "float",
+					"value" : 1324.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Variable Rules",
+					"type" : "float",
+					"value" : 372.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Import Rules",
+					"type" : "float",
+					"value" : 261.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Refactoring Rules",
+					"type" : "float",
+					"value" : 40.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Design Rules",
+					"type" : "float",
+					"value" : 101.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Class Rules",
+					"type" : "float",
+					"value" : 219.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Typecheck Rules",
+					"type" : "float",
+					"value" : 122.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Format Rules",
+					"type" : "float",
+					"value" : 18.0
+				},
+				{
+					"context" : "metricgroup",
+					"name" : "/general/Miscellaneous Rules",
+					"type" : "float",
+					"value" : 42.0
 				},
 				{
 					"context" : "metric",
 					"name" : "TLLOC",
 					"type" : "int",
-					"value" : 21995
+					"value" : 24170
 				},
 				{
 					"context" : "metric",
 					"name" : "TLOC",
 					"type" : "int",
-					"value" : 26522
+					"value" : 30750
 				},
 				{
 					"context" : "metric",
@@ -121,37 +487,37 @@
 					"context" : "metric",
 					"name" : "TNFI",
 					"type" : "int",
-					"value" : 117
+					"value" : 171
 				},
 				{
 					"context" : "metric",
 					"name" : "TNM",
 					"type" : "int",
-					"value" : 855
+					"value" : 894
 				},
 				{
 					"context" : "metric",
 					"name" : "TNOS",
 					"type" : "int",
-					"value" : 6003
+					"value" : 6343
 				},
 				{
 					"context" : "metric",
 					"name" : "TNPKG",
 					"type" : "int",
-					"value" : 25
+					"value" : 52
 				},
 				{
 					"context" : "metric",
 					"name" : "TCLOC",
 					"type" : "int",
-					"value" : 8491
+					"value" : 9775
 				},
 				{
 					"context" : "metric",
 					"name" : "TNDI",
 					"type" : "int",
-					"value" : 29
+					"value" : 55
 				},
 				{
 					"context" : "metric",
@@ -163,19 +529,19 @@
 					"context" : "metric",
 					"name" : "WarningCritical",
 					"type" : "int",
-					"value" : 0
+					"value" : 184
 				},
 				{
 					"context" : "metric",
 					"name" : "WarningMajor",
 					"type" : "int",
-					"value" : 0
+					"value" : 602
 				},
 				{
 					"context" : "metric",
 					"name" : "WarningMinor",
 					"type" : "int",
-					"value" : 0
+					"value" : 1713
 				},
 				{
 					"context" : "metric",

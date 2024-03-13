@@ -24,9 +24,10 @@ def combine_metrics():
         sourcemeter_metrics_names = []
 
         for metric in sourcemeter:
-            if metric["name"] != "Name" and metric["name"] != "LongName":
-                sourcemeter_metrics_names.append(metric["name"])
-                sourcemeter_metrics.append(metric["value"])
+            if metric["name"] != "Name" and metric["name"] != "LongName" and metric["name"] != "CC":
+                if not (metric["name"].startswith("/") or metric["name"].startswith("PYLINT")):
+                    sourcemeter_metrics_names.append(metric["name"])
+                    sourcemeter_metrics.append(metric["value"])
 
 
         overall_names = ["Name"] + radon_metrics_names + sourcemeter_metrics_names
