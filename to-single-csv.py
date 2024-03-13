@@ -3,7 +3,7 @@ import os
 
 
 COMBINED_DIR = "results-combined"
-CSV_PATH = "metrics.csv"
+CSV_PATH = "combined-metrics.csv"
 
 
 def combine_to_single_csv():
